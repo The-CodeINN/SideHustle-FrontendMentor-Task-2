@@ -63,8 +63,6 @@ const proudOfThisFunc = () => {
 
 - [Font-Awesome](https://www.font-awesome.com) - This helped me with the beautiful icons
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Github - [@CHADO-CODEINNS](https://github.com/CHADO-CODEINNS)
