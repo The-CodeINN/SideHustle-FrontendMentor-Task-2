@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [NETLIFY](https://fylo-sidehustle.netlify.app)
+- Live Site URL: [DEMO](https://fylo-sidehustle.netlify.app)
 
 
 ### Built with
