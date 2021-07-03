@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <!-- CSS Styles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-
   <!-- google fonts CDN -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
@@ -17,20 +15,23 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
     integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+      
   
   <title>Fylo || Homepage</title>  
+
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 
   <!-- NAV CONTAINER -->
   <div class="nav-container">
-    <img src="./images/logo.svg" alt="Fylo">
+    <a href="#"><img src="./images/logo.svg" alt="Fylo"></a>
     <div class="nav-links">
       <ul>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Sign In</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#sign">Sign In</a></li>
       </ul>
     </div>
   </div>
@@ -46,7 +47,7 @@
   </div>
 
   <!-- ICONS CONTAINER -->
-  <div class="icons-container">
+  <div class="icons-container" id='features'>
     <ul>
       <li>
         <img src="./images/icon-access-anywhere.svg" alt="">
@@ -100,7 +101,7 @@
   </div>
 
   <!-- TESTIMONIAL CONTAINER -->
-  <div class="testimonial-container">
+  <div class="testimonial-container" id='team'>
     <div class="testimonial-inner-container">
       <img src="./images/bg-quotes.png" alt="Testimonial">
       <ul>
@@ -144,12 +145,12 @@
 
   <!-- ACCESS CONTAINER -->
   <div class="access-container">
-    <div class="access-inner-container">
+    <div class="access-inner-container" id='sign'>
       <h2>Get early access today</h2>
       <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
 
       <div class="acess-input">
-        <form action="">
+        <form action="dummy.php">
           <input id="email-input" type="text" name="user_email" placeholder="email@example.com" onfocus="this.placeholder = ''" onblur="this.placeholder = 'email@example.com'">
           <button>Get Started For Free</button>
         </form>
@@ -160,29 +161,30 @@
   </div>
 
   <!-- FOOTER CONTAINER -->
+<footer>
   <div class="footer-container">
 
     <div class="footer-inner-container">
 
       <div class="logo-container">
-        <img src="./images/logo.svg" alt="">
+        <img src="./images/logo.svg" alt="logo">
       </div>
   
       <div class="footer-content">
   
         <div class="footer-address">
-          <i class="fas fa-map-marker-alt"></i>
+          <img src="./images/icon-location.svg" alt="location-icon">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         </div>
   
         <div class="phone-email">
           <div class="footer-contact-info-phone">
-            <i class="fas fa-phone-volume"></i>
+            <img src="./images/icon-phone.svg" alt="phone-icon">
             <p>+1-543-123-4567</p>
           </div>
     
           <div class="footer-contact-info-email">
-            <i class="far fa-envelope"></i>
+            <img src="./images/icon-email.svg" alt="email-icon">
             <p>example@fylo.com</p>
           </div>
         </div>
@@ -205,17 +207,19 @@
         </div>
       </div>
     </div>
-    <div class="attribution-container">
-        <p class="attribution">
-          Task by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Sidehustle NG</a>.
-          Coded by <a href="https://github.com/CHADO-CODEINNS" target="_blank">Richard Emijere</a>.
-        </p>
-        <a href="emijere.richard@gmail.com" class="fas fa-envelope icon" target="_blank"></a>
-        <a href="https://github.com/CHADO-CODEINNS" class="fab fa-github icon" target="_blank"></a>
-        <a href="https://www.linkedin.com/in/richard-emijere-84067bb0/" class="fab fa-linkedin icon" target="_blank"></a>
-        <a href="http://twitter.com/Emmy_Richie112" class="fab fa-twitter icon" target="_blank"></a>
-        <a href="https://www.instagram.com/richie_richy112/" class="fab fa-instagram icon" target="_blank"></a>
-    </div>
+      <div class="attribution-container">
+          <a href="https://github.com/CHADO-CODEINNS" class="fab fa-github icon" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/richard-emijere-84067bb0/" class="fab fa-linkedin icon" target="_blank"></a>
+          <a href="http://twitter.com/Emmy_Richie112" class="fab fa-twitter icon" target="_blank"></a>
+          
+          <p class="attribution">
+            Task by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/CHADO-CODEINNS" target="_blank">Richard Emijere</a>.
+          </p>
+      </div>
   </div>
+</footer>
+
+  <script src="./app.js"></script>
 </body>
 </html>
