@@ -416,6 +416,10 @@ span{
     cursor: pointer;
 }
 
+#img-icon{
+  margin-top: 1rem;
+} 
+
 .attribution-container {
     text-align: center;
 }
