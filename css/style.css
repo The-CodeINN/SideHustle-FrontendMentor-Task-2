@@ -685,7 +685,7 @@ span{
         margin-top: 0;
     }
 
-    .footer-content i:not(:first-child){
+    .footer-content img:not(:first-child){
         margin: 0;
     }
 
